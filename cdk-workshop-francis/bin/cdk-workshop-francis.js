@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const cdk = require("@aws-cdk/core");
+const cdk_workshop_francis_stack_1 = require("../lib/cdk-workshop-francis-stack");
+const app = new cdk.App();
+new cdk_workshop_francis_stack_1.CdkWorkshopFrancisStack(app, 'CdkWorkshopFrancisStack');
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2RrLXdvcmtzaG9wLWZyYW5jaXMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJjZGstd29ya3Nob3AtZnJhbmNpcy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFDQSxxQ0FBcUM7QUFDckMsa0ZBQTRFO0FBRTVFLE1BQU0sR0FBRyxHQUFHLElBQUksR0FBRyxDQUFDLEdBQUcsRUFBRSxDQUFDO0FBQzFCLElBQUksb0RBQXVCLENBQUMsR0FBRyxFQUFFLHlCQUF5QixDQUFDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIjIS91c3IvYmluL2VudiBub2RlXG5pbXBvcnQgKiBhcyBjZGsgZnJvbSAnQGF3cy1jZGsvY29yZSc7XG5pbXBvcnQgeyBDZGtXb3Jrc2hvcEZyYW5jaXNTdGFjayB9IGZyb20gJy4uL2xpYi9jZGstd29ya3Nob3AtZnJhbmNpcy1zdGFjayc7XG5cbmNvbnN0IGFwcCA9IG5ldyBjZGsuQXBwKCk7XG5uZXcgQ2RrV29ya3Nob3BGcmFuY2lzU3RhY2soYXBwLCAnQ2RrV29ya3Nob3BGcmFuY2lzU3RhY2snKTtcbiJdfQ==
